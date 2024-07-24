@@ -26,6 +26,7 @@ button{
   color: white;
   background-color: #008CBA;
   border: none;
+  border-radius: 0.25rem;
   padding: 0.5rem;
   text-decoration: none;
   transition: all 0.25s;
@@ -49,4 +50,11 @@ img{
 
 h1 {
   color: aqua;
+}
+
+.button-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 1rem 0 1rem 0;
 }
